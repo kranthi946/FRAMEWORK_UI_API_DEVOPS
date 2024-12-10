@@ -192,7 +192,7 @@ public void 	signinbutton(By by, WaitStrategy waitStrategy){
 		//int count = li.size();
 
 		System.out.println(" links method " );
-		//System.out.println("Total number of links " + count);
+		System.out.println("Total number of links " + count);
 		// ExtentManager.getExtentTest().pass("Total no of links is "  + count);
 		/**
 		 * for(int i=0; i<li.size();i++)
