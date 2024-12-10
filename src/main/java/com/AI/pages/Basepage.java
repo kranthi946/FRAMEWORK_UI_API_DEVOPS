@@ -189,7 +189,7 @@ public void 	signinbutton(By by, WaitStrategy waitStrategy){
 
 	public List<WebElement> getLinksText(By by) {
 		List<WebElement> li = driver.DriverManager.getDriver().findElements(By.tagName("a"));
-		//int count = li.size();
+		int count = li.size();
 
 		System.out.println(" links method " );
 		System.out.println("Total number of links " + count);
